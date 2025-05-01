@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# AI_Agents
-=======
 # AI Agent Framework
 
 This project is a generic Python AI agent framework with:
