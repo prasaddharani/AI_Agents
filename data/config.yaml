@@ -1,0 +1,13 @@
+# Configuration for the AI agent framework
+llm:
+  provider: gemini  # or 'openai', 'generic', etc.
+  endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+  api_key: "your_provider_api_key"  # Replace with your actual key or use an environment variable
+  model: "gemini-2.5-flash-preview-04-17"
+tools:
+  search: true
+  weather: true
+judge:
+  use_llm: false
+memory:
+  file_path: "memory.json"
